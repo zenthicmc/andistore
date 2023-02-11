@@ -73,7 +73,6 @@ class TripayCallbackController extends Controller
                     'review_code' => $review_code
                 ]);
 
-                Mail::to($transaction->email)->send(new OrderShipped($transaction));
                 return response()->json([
                     'success' => true,
                     'message' => 'Payment success, please check your email',
