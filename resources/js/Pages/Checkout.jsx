@@ -115,7 +115,7 @@ const Checkout = (props) => {
 
 							</Stack>
 
-							<Button type='submit' colorScheme={'teal'} size={'md'} fontSize={'sm'} w={'100%'}>Pay</Button>
+							<Button bgGradient="linear(to-l, teal.400,teal.600)" _hover={{ bgGradient: 'linear(to-l, teal.400,teal.600)', opacity: 0.9 }} type='submit' colorScheme={'teal'} size={'md'} fontSize={'sm'} w={'100%'}>Pay</Button>
 						</form>
 					</CardBody>
 				</Card>

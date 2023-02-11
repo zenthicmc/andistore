@@ -43,18 +43,18 @@ const Increament = (props) => {
 			<Text>💵 Price: Rp {price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}</Text>
 			{product.min_quantity > 1 && <Text>✅ Min Quantity: {product.min_quantity}</Text>}
 			<HStack maxW='100%' marginTop={'5'}>
-				<Button onClick={() => onClickDecrease()} colorScheme={'teal'}>-</Button>
+				<Button bgGradient="linear(to-l, teal.400,teal.600)" _hover={{ bgGradient: 'linear(to-l, teal.400,teal.600)', opacity: 0.9 }} onClick={() => onClickDecrease()} colorScheme={'teal'}>-</Button>
 				<Input value={count} variant={'outline'} bg={bg} />
-				<Button onClick={() => onClickIncrease()} colorScheme={'teal'}>+</Button>
+				<Button bgGradient="linear(to-l, teal.400,teal.600)" _hover={{ bgGradient: 'linear(to-l, teal.400,teal.600)', opacity: 0.9 }} onClick={() => onClickIncrease()} colorScheme={'teal'}>+</Button>
 			</HStack>
 			{stock != 0 ? 
 			<>
 				<Link href={route('checkout', {id_product: props.id, quantity: count} )}>
-					<Button colorScheme={'teal'} size={'md'} fontSize={'sm'} w={'100%'} marginTop={'5'}>Checkout</Button>
+					<Button bgGradient="linear(to-l, teal.400,teal.600)" _hover={{ bgGradient: 'linear(to-l, teal.400,teal.600)', opacity: 0.9 }} size={'md'} fontSize={'sm'} w={'100%'} marginTop={'5'} color={'white'}>Checkout</Button>
 				</Link>
 			</> : 
 			<>
-				<Button colorScheme={'teal'} size={'md'} fontSize={'sm'} w={'100%'} marginTop={'5'} disabled>Checkout</Button>
+				<Button bgGradient="linear(to-l, teal.400,teal.600)" _hover={{ bgGradient: 'linear(to-l, teal.400,teal.600)' }} size={'md'} fontSize={'sm'} w={'100%'} marginTop={'5'} color={'white'} disabled>Checkout</Button>
 			</>
 			}
 		</>

@@ -83,7 +83,7 @@ const CreateReview = (props) => {
 							<Input type='text' placeholder='Enter your review...' id='description' fontSize={'md'} value={data.description} onChange={handleChange} required/>
 						</Stack>
 
-						<Button type='submit' colorScheme={'teal'} size={'md'} fontSize={'sm'} w={'100%'}>Submit</Button>
+						<Button bgGradient="linear(to-l, teal.400,teal.600)" _hover={{ bgGradient: 'linear(to-l, teal.400,teal.600)', opacity: 0.9 }} type='submit' colorScheme={'teal'} size={'md'} fontSize={'sm'} w={'100%'}>Submit</Button>
 					</form>
 				</Box>
 			</Box>

@@ -9,7 +9,7 @@ const sanitize = (str) => {
 }
 
 const ProductCard = ({ data }) => {
-	const bg = useColorModeValue('gray.50', 'gray.700')
+	const bg = useColorModeValue('gray.100', 'gray.700')
 	const color = useColorModeValue('teal.600', 'teal.100')
 
 	return (

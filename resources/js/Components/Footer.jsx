@@ -15,7 +15,9 @@ const Footer = (props) => {
 						textTransform="capitalize"
 						fontWeight="400"
 					>
-						&copy; 2023 {props.merchant}. All rights reserved.
+						<Text as="span" color="gray.600" fontSize="md">
+							Made with <span style={{ color: "red" }}>❤️</span> by{" "} {props.merchant}
+						</Text>
 					</Box>
 				</Box>
 			</Box>
