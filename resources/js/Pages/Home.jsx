@@ -8,6 +8,7 @@ import Footer from '@/Components/Footer'
 import Products from '@/Components/Products'
 import Reviews from '@/Components/Reviews'
 import { useColorModeValue } from '@chakra-ui/color-mode'
+import { Link } from '@inertiajs/inertia-react';
 
 const Home = (props) => {
 	return (
@@ -29,7 +30,7 @@ const Home = (props) => {
 					</TabPanel>
 					<TabPanel p={0}>
 						<Flex alignItems='center' marginTop='5'>
-							<p>Contact</p>
+							<p>Discord: <Link href='https://discord.gg/5PgrRks7z7'>https://discord.gg/5PgrRks7z7</Link></p>
 						</Flex>
 					</TabPanel>
 					<TabPanel p={0}>
