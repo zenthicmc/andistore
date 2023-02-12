@@ -84,7 +84,7 @@
 
 						      <td class="align-middle">
                     <div class="col-md-2">
-                     	<a href="{{ route('detail',$product->slug) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                     	<a href="{{ route('detail',$product->slug) }}" target="_blank" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
                         <span class="badge bg-success">
                           <i class="fa-solid fa-eye me-1"></i>
                           View
