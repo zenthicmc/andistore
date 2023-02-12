@@ -24,6 +24,7 @@
                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Product</th>
                 <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Amount</th>
                 <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Price</th>
+                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Created At</th>
                 <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
                 <th class="text-secondary opacity-7"></th>
               </tr>
@@ -62,6 +63,10 @@
 
                   <td class="align-middle text-center">
                      <span class="text-secondary text-xs font-weight-bold">Rp. {{ number_format($invoice->price) }}</span>
+                  </td>
+
+                  <td class="align-middle text-center">
+                    <span class="badge badge-sm bg-gradient-danger">{{ $invoice->created_at }}</span>
                   </td>
 
                   <td class="align-middle text-center">
