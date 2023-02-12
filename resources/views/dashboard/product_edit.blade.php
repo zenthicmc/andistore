@@ -50,7 +50,7 @@
                   <div class="form-group">
                      <label class="form-control-label">Image</label>
                      <input class="form-control" type="file" name="image" value="{{ $product->image }}" autocomplete="off">
-                     <div class="form-text">Accepted Type: .png .jpg .svg | Recommended size: 512 x 512 px</div>
+                     <div class="form-text">Accepted Type: .png .jpg .svg</div>
                   </div>
                </div>
                <div class="col-md-12">
