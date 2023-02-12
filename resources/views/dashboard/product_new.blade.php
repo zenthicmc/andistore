@@ -55,7 +55,7 @@
                <div class="col-md-12">
                   <div class="form-group">
                      <label class="form-control-label">Minimal Quantity</label>
-                     <input class="form-control" type="number" name="min_quantity" value="{{ old('min_quantity') }}" autocomplete="off" value="1">
+                     <input class="form-control" type="number" name="min_quantity" value="1" autocomplete="off">
                      <div class="form-text">Minimal quantity when user buy this product</div>
                   </div>
                </div>
