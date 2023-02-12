@@ -66,7 +66,7 @@
                   </td>
 
                   <td class="align-middle text-center">
-                    <span class="badge badge-sm bg-gradient-danger">{{ $invoice->created_at }}</span>
+                    <span class="text-secondary text-xs font-weight-bold">{{ $invoice->created_at }}</span>
                   </td>
 
                   <td class="align-middle text-center">
