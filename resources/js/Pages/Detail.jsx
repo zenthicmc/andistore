@@ -62,7 +62,7 @@ const Detail = (props) => {
 							<Text fontSize={'sm'} fontWeight={'300'}>
 								1. Semua Barang Yang Sudah Dibeli Dan Sudah Dipakai Tidak Dapat Di Refund<br />
 								2. Jika Produk Yang Diterima Tidak  Bisa Digunakan Kami Akan Memberikan Garansi<br />
-								3. Jika Butuh Bantuan Bisa Contact Kami Langsung Di Wa / Discord
+								3. Jika Butuh Bantuan Bisa Contact Kami Langsung Di Wa / Discord<br />
 								4. Jika Ada Pertanyaan Bisa Contact Kami Langsung Di Wa / Discord
 							</Text>
 						</CardBody>
