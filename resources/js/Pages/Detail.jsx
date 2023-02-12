@@ -62,8 +62,8 @@ const Detail = (props) => {
 							<Text fontSize={'sm'} fontWeight={'300'}>
 								1. Semua Barang Yang Sudah Dibeli Dan Sudah Dipakai Tidak Dapat Di Refund<br />
 								2. Jika Produk Yang Diterima Tidak  Bisa Digunakan Kami Akan Memberikan Garansi<br />
-								3. Jika Butuh Bantuan Bisa Join Discord Kami <a href='https://discord.gg/5PgrRks7z7' target='_blank'>https://discord.gg/5PgrRks7z7</a> UNTUK MENDAPAT SUPPORT LEBIH LANJUT<br />
-								4. Jika Ada Pertanyaan Bisa Join Discord Kami <a href='https://discord.gg/5PgrRks7z7' target='_blank'>https://discord.gg/5PgrRks7z7</a>
+								3. Jika Butuh Bantuan Bisa Contact Kami Langsung Di Wa / Discord
+								4. Jika Ada Pertanyaan Bisa Contact Kami Langsung Di Wa / Discord
 							</Text>
 						</CardBody>
 					</Card>
