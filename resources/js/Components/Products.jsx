@@ -5,15 +5,13 @@ import { useColorModeValue } from '@chakra-ui/color-mode'
 import Notfound from '@/Components/Notfound'
 import axios from 'axios'
 import ProductSkeleton from '@/Components/ProductSkeleton'
-import * as Scroll from 'react-scroll';
 
 const Products = (props) => {
 	const [search, setSearch] = useState('')
 	const [sort, setSort] = useState('default')
 	const [products, setProducts] = useState([])
 	const [loading, setLoading] = useState(true)
-	const bg = useColorModeValue('gray.100', 'gray.700')
-	const Element = Scroll.Element
+	const bg = useColorModeValue('gray.50', 'gray.700')
 
 	useEffect(() => {
 		setLoading(true)
@@ -38,11 +36,6 @@ const Products = (props) => {
 
 	return (
 		<>
-			<Element name='products' id='products' />
-			<Heading as='h2' size='lg' mt={10} textAlign="center">Products</Heading>
-      <Text fontSize="lg" fontWeight="400" mb={20} textAlign="center" color={'gray.500'}>
-        We have a wide range of products to choose from
-      </Text>
 			<Flex alignItems='center' marginTop='5'>
 				<Input size='lg' placeholder='Search for a product...	' variant='outline' bg={bg} fontSize='sm' 
 					onChange={(e) => setSearch(e.target.value)}

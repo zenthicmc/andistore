@@ -15,7 +15,7 @@ use App\Mail\OrderShipped;
 class TripayCallbackController extends Controller
 {
     // Isi dengan private key anda
-    protected $privateKey = 'aMiNq-PDzZN-ilF39-h7dqy-KawOe';
+    protected $privateKey = 'EtDxR-0K46x-2Zxkx-UN267-nt8FA';
 
     public function handle(Request $request)
     {

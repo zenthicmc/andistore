@@ -11,7 +11,7 @@ import { useState } from 'react'
 const CreateReview = (props) => {
 	const bg = useColorModeValue('gray.50', 'gray.700')
 	const color = useColorModeValue('gray.600', 'gray.50')
-	const [star, setStar] = useState(4)
+	const [star, setStar] = useState(5)
 	const [isSuccess, setIsSuccess] = useState(false)
 	const transaction = props.transaction
 
@@ -83,7 +83,7 @@ const CreateReview = (props) => {
 							<Input type='text' placeholder='Enter your review...' id='description' fontSize={'md'} value={data.description} onChange={handleChange} required/>
 						</Stack>
 
-						<Button bgGradient="linear(to-l, teal.400,teal.600)" _hover={{ bgGradient: 'linear(to-l, teal.400,teal.600)', opacity: 0.9 }} type='submit' colorScheme={'teal'} size={'md'} fontSize={'sm'} w={'100%'}>Submit</Button>
+						<Button type='submit' colorScheme={'teal'} size={'md'} fontSize={'sm'} w={'100%'}>Submit</Button>
 					</form>
 				</Box>
 			</Box>

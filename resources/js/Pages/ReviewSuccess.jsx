@@ -27,7 +27,7 @@ const ReviewSuccess = (props) => {
 					</Text>
 					<Center marginBottom={'10'} w={'100%'}>
 						<Link href={'/'} w={'100%'}>
-							<Button bgGradient="linear(to-l, teal.400,teal.600)" _hover={{ bgGradient: 'linear(to-l, teal.400,teal.600)', opacity: 0.9 }} w={'100%'} colorScheme={'teal'} variant={'solid'}>Back to Home</Button>
+							<Button w={'100%'} colorScheme={'teal'} variant={'solid'}>Back to Home</Button>
 						</Link>
 					</Center>
 				</Box>
