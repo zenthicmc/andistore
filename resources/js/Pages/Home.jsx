@@ -29,7 +29,8 @@ const Home = (props) => {
 					</TabPanel>
 					<TabPanel p={0}>
 						<Flex alignItems='center' marginTop='5'>
-							<p>Discord: <a href='https://discord.gg/5PgrRks7z7'>https://discord.gg/5PgrRks7z7</a></p>
+							<p>Discord: <a href='https://discord.gg/5PgrRks7z7' target='_blank'>https://discord.gg/5PgrRks7z7</a></p>
+							<p>Whatsapp: <a href='https://wa.me/+6282167004112' target='_blank'>https://wa.me/+6282167004112</a></p>
 						</Flex>
 					</TabPanel>
 					<TabPanel p={0}>
