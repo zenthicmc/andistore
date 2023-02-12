@@ -6,6 +6,7 @@ import { HiShoppingCart } from 'react-icons/hi';
 import { AiFillStar } from 'react-icons/ai';
 import Increament from '@/Components/Increament';
 import { useColorModeValue } from '@chakra-ui/color-mode'
+import { Link } from '@inertiajs/inertia-react';
 
 const Detail = (props) => {
 	const product = props.product
@@ -60,10 +61,10 @@ const Detail = (props) => {
 						<CardBody>
 							<Text fontSize={'lg'} fontWeight={'600'} marginBottom={'5'}>✅ Warranty</Text>
 							<Text fontSize={'sm'} fontWeight={'300'}>
-								1. SEMUA BARANG YANG SUDAH DIBELI DAN SUDAH DIPAKAI TIDAK DAPAT DI REFUND<br />
-								2. JIKA PRODUK YANG DITERIMA TIDAK  BISA DIGUNAKAN KAMI AKAN MEMBERIKAN GARANSI<br />
-								3. JIKA BUTUH BANTUAN BISA JOIN DISCORD KAMI https://discord.gg/kzone UNTUK MENDAPAT SUPPORT LEBIH LANJUT<br />
-								4. JIKA ADA PERTANYAAN BISA JOIN DISCORD KAMI https://discord.gg/kzone
+								1. Semua Barang Yang Sudah Dibeli Dan Sudah Dipakai Tidak Dapat Di Refund<br />
+								2. Jika Produk Yang Diterima Tidak  Bisa Digunakan Kami Akan Memberikan Garansi<br />
+								3. Jika Butuh Bantuan Bisa Join Discord Kami <Link href='https://discord.gg/5PgrRks7z7'>https://discord.gg/5PgrRks7z7</Link> UNTUK MENDAPAT SUPPORT LEBIH LANJUT<br />
+								4. Jika Ada Pertanyaan Bisa Join Discord Kami <Link href='https://discord.gg/5PgrRks7z7'>https://discord.gg/5PgrRks7z7</Link>
 							</Text>
 						</CardBody>
 					</Card>
