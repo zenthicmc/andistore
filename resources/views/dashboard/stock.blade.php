@@ -15,8 +15,8 @@
         <h6>Stocks</h6>
       </div>
       <div class="card-body px-0 pt-0 pb-2">
+        <a class="btn btn-primary" style="margin-left: 17px;font-size: 12px;" href="{{ route('stock_new') }}">Add Stock</a>
         <div class="table-responsive p-4">
-          <a class="btn btn-primary" style="margin-left: 17px;font-size: 12px;" href="{{ route('stock_new') }}">Add Stock</a>
           <a class="btn btn-success" style="margin-left: 10px;font-size: 12px;" href="{{ route('stock_import') }}">Import Stock</a>
           <table class="table align-items-center mb-0" id="table">
             <thead>
